@@ -50,7 +50,6 @@
                         break
                     
                     case "dodol":
-                        
                         myText.innerHTML = "This kueh is called dodol"
                         break
                     
@@ -78,19 +77,19 @@
     <a-scene embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;' 
         renderer="colorManagement: true; logarithmicDepthBuffer: true" vr-mode-ui="enabled: false" gltf-model="dracoDecoderPath: https://www.gstatic.com/draco/v1/decoders/" gesture-detector>
 
-        <a-marker markerhandler type='pattern' url='patterns/pattern-sago.patt' id="sago"
+        <a-marker markerhandler type='pattern' url='textures/pattern-sago.patt' id="sago"
             raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
 
-            <a-entity gltf-model=”url(models/sago.glb)” scale="0.5 0.5 0.5" rotation="-90 0 0" class="clickable" gesture-handler></a-entity>
+            <a-entity gltf-model=”url(models/sago.glb)” rotation="-90 0 0" class="clickable" gesture-handler></a-entity>
         </a-marker>
 
-        <a-marker markerhandler type='pattern' url='patterns/pattern-dodol.patt' id="dodol"
+        <a-marker markerhandler type='pattern' url='textures/pattern-dodol.patt' id="dodol"
             raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
 
             <a-entity gltf-model=”url(models/dodol.glb)” rotation="-90 0 0" class="clickable" gesture-handler></a-entity>
         </a-marker>
 
-        <a-marker markerhandler type='pattern' url='patterns/pattern-wajik.patt' id="wajik"
+        <a-marker markerhandler type='pattern' url='textures/pattern-wajik.patt' id="wajik"
             raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;">
 
             <a-entity gltf-model=”url(models/wajik.glb)” rotation="-90 0 0" class="clickable" gesture-handler></a-entity>
