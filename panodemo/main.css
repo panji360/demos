@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.credits {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: monospace;
+}
+
+.instructions {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: monospace;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 2000;
+  }
+
+.button:hover {
+    background-color: white;
+    color: black;
+  }
+
+.controller {
+    position: absolute;
+    left: 50%;
+    bottom: 2vh;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+
+.button-control {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 4000;
+    margin-top: auto;
+    margin-bottom: 2vh;
+  }
+
+.button-control:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+.button-small {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button-small:hover {
+    background-color: black;
+    color: white;
+  }
+
+/*# sourceMappingURL=main.css.map*/
