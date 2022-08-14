@@ -12,22 +12,26 @@ body
 
 .credits {
     position: absolute;
+	max-width: 33vw;
     right: 1em;
     top: 1em;
     padding: 1em;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     font-family: monospace;
+	font-size: 0.8rem;
 }
 
 .instructions {
     position: absolute;
+	max-width: 33vw;
     left: 1em;
     top: 1em;
     padding: 1em;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     font-family: monospace;
+	font-size: 0.8rem;
 }
 
 .webgl
