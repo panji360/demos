@@ -77,18 +77,18 @@ body
   }
 
 .button {
-    background-color: black; /* Green */
+    background-color: black;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1rem;
+    margin: 1em;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 0.4em;
     z-index: 2000;
   }
 
