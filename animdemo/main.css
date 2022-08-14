@@ -101,15 +101,15 @@ body
     background-color: white; /* Green */
     border: none;
     color: black;
-    padding: 10px;
+    padding: 0.4em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
+    font-size: 0.8rem;
+    margin: 0.4em;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 0.2em;
 }
 
 .button-small:hover {
