@@ -15,9 +15,11 @@ body
     right: 1em;
     top: 1em;
     padding: 1em;
+	max-width: 33vw;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     font-family: monospace;
+	font-size: 0.8rem;
 }
 
 .instructions {
@@ -25,9 +27,11 @@ body
     left: 1em;
     top: 1em;
     padding: 1em;
+	max-width: 33vw;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     font-family: monospace;
+	font-size: 0.8rem;
 }
 
 .center {
@@ -39,18 +43,18 @@ body
   }
 
 .button {
-    background-color: black; /* Green */
+    background-color: black;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1rem;
+    margin: 1em;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 0.4em;
     z-index: 2000;
   }
 
@@ -67,44 +71,19 @@ body
     transform: translateX(-50%)
 }
 
-
-.button-control {
-    background-color: black; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 4px;
-    z-index: 4000;
-    margin-top: auto;
-    margin-bottom: 2vh;
-  }
-
-.button-control:hover {
-    background-color: white;
-    color: black;
-  }
-
-
 .button-small {
     background-color: white; /* Green */
     border: none;
     color: black;
-    padding: 10px;
+    padding: 0.4em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
+    font-size: 0.8rem;
+    margin: 0.4em;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 0.2em;
 }
 
 .button-small:hover {
